@@ -1,4 +1,5 @@
 import ListGroup from "./components/ListGroup";
+import Alert from "./components/Alert";
 
 function App() {
   let items = ["New York", "San Francisco", "Austin", "Chicago", "Watsonville"];
@@ -9,6 +10,9 @@ function App() {
 
   return (
     <div>
+      <Alert>
+        Hello World<span>!</span>
+      </Alert>
       <ListGroup
         items={items}
         heading={"Cities"}
