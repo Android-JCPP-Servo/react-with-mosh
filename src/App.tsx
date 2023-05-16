@@ -1,5 +1,6 @@
 import ListGroup from "./components/ListGroup";
 import Alert from "./components/Alert";
+import Button from "./components/Button";
 
 function App() {
   let items = ["New York", "San Francisco", "Austin", "Chicago", "Watsonville"];
@@ -18,6 +19,7 @@ function App() {
         heading={"Cities"}
         onSelectItem={handleSelectItem}
       ></ListGroup>
+      <Button text="React Button"/>
     </div>
   );
 }
