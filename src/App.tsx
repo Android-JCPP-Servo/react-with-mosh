@@ -19,7 +19,7 @@ function App() {
         heading={"Cities"}
         onSelectItem={handleSelectItem}
       ></ListGroup>
-      <Button text="React Button"/>
+      <Button onClick={() => console.log("Hello!")}>React Button</Button>
     </div>
   );
 }
