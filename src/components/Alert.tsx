@@ -10,4 +10,4 @@ const Alert = ({children}: Props) => {
   )
 }
 
-export default Alert
+export default Alert;
